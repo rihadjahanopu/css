@@ -1,0 +1,327 @@
+.mtk15 {
+  background: linear-gradient(90deg, #12c2e9 0%, #c471ed 50%, #f64f59 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
+
+.mtk8 {
+  color: #17b85a;
+  font-weight: 900;
+}
+
+.monaco-editor .bracket-highlighting-0 {
+  color: #f71342;
+  font-weight: 900;
+}
+
+.mtk16 {
+  font-weight: 900;
+}
+/* .mtk1 {
+  font-weight: 900;
+  color: #b1afff;
+} */
+
+.mtk6 {
+  font-weight: 900;
+}
+.tab-border-top-container {
+  background-image: linear-gradient(
+    to right,
+    #fd2c6c,
+    #ff5d3e,
+    #ff9100,
+    #e0c100,
+    #a8eb12
+  );
+  height: 4px !important;
+  border-radius: 50px;
+}
+
+span.mtk9 {
+  color: #ff5733;
+  font-weight: 700;
+}
+
+span.mtk7.detected-link {
+  /** TEXT GRADIENT */
+  color: #ff007e;
+  background-image: -webkit-linear-gradient(
+    0deg,
+    #ff007e 11%,
+    #cf1152 37%,
+    #ff353e 86%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-decoration: underline !important;
+  font-size: medium;
+  font-weight: 900;
+  border-bottom: 3px dashed #17b85a;
+}
+a.action-label.codicon.codicon-accounts-view-bar-icon::before {
+  color: #ff353e;
+}
+
+a.action-label.codicon.codicon-settings-view-bar-icon::before {
+  color: #ff353e;
+}
+
+span.mtk7 {
+  color: #ff8c00;
+  font-weight: 900;
+}
+
+.codicon-more:before {
+  color: #1f9106;
+  background-image: -webkit-linear-gradient(
+    0deg,
+    #ff353e 20%,
+    #e3dc08 56%,
+    #ff353e 30%
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.monaco-sash.vertical.hover::before {
+  background-image: linear-gradient(
+    to bottom,
+    #fd2c6c,
+    #fd2c6c,
+    #ff5d3e,
+    #ff5d3e,
+    #ff9100,
+    #e0c100,
+    #a8eb12
+  );
+
+  border-radius: 50px;
+}
+/* left border */
+/* .part.sidebar.left.pane-composite-part {
+  border-color: #f71342;
+  border-width: 5px !important;
+  border-style: solid;
+  border-image: linear-gradient(
+      to bottom,
+      #fd2c6c,
+      #fd2c6c,
+      #ff5d3e,
+      #ff5d3e,
+      #ff9100,
+      #e0c100,
+      #a8eb12
+    )
+    1 !important;
+
+  border-left: 0;
+  border-top: 0;
+  border-bottom: 0;
+} */
+
+/* terminal top border */
+.composite.title.has-composite-bar {
+  border-color: #f71342;
+  border-width: 3px !important;
+  border-style: solid;
+  border-image: linear-gradient(
+      to right,
+      #fd2c6c,
+      #fd2c6c,
+      #ff5d3e,
+      #ff5d3e,
+      #ff9100,
+      #e0c100,
+      #a8eb12
+    )
+    1 !important;
+
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.monaco-sash.vertical.active::before {
+  background-image: linear-gradient(
+    to bottom,
+    #fd2c6c,
+    #fd2c6c,
+    #ff5d3e,
+    #ff5d3e,
+    #ff9100,
+    #e0c100,
+    #a8eb12
+  );
+  border-radius: 20px;
+}
+
+.monaco-sash.horizontal.hover::before {
+  background-image: linear-gradient(
+    to right,
+    #fd2c6c,
+    #fd2c6c,
+    #ff5d3e,
+    #ff5d3e,
+    #ff9100,
+    #e0c100,
+    #a8eb12
+  );
+}
+.monaco-sash.horizontal.active::before {
+  background-image: linear-gradient(
+    to right,
+    #fd2c6c,
+    #fd2c6c,
+    #ff5d3e,
+    #ff5d3e,
+    #ff9100,
+    #e0c100,
+    #a8eb12
+  );
+}
+
+.active-item-indicator::before {
+  border-top-width: 4px !important;
+  border-radius: 50px;
+}
+.action-label {
+  font-weight: bold;
+  /* color: #f71342; */
+  /* color:#17B85A; */
+
+  color: #ff9100;
+  font-family: "JetBrains Mono";
+}
+
+.monaco-highlighted-label {
+  font-weight: 700;
+
+  font-family: "JetBrains Mono";
+}
+.windows {
+  font-family: "JetBrains Mono";
+  color: #ff9100;
+  font-weight: bold;
+}
+
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active
+  .tab-label
+  a {
+  color: #f71342;
+
+  background-image: -webkit-linear-gradient(0deg, #fc2c11 24%, #e3dc08 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900 !important;
+}
+
+.codicon-accounts-view-bar-icon::before {
+  content: "";
+  height: 30px;
+  width: 30px;
+  background-color: #cf1152;
+  border-radius: 50%;
+  background-size: 100%;
+  background-image: url(https://i.postimg.cc/W3hCs9d0/output-EDIT-EDIT-removebg.png);
+  border: 2px solid #f71342;
+  /* filter: drop-shadow(0 0 0.35rem crimson); */
+  filter: drop-shadow(0 0 0.25rem #ea9e24);
+  animation: pulse 2s linear infinite;
+}
+
+.monaco-workbench
+  .activitybar
+  > .content
+  :not(.monaco-menu)
+  > .monaco-action-bar
+  .action-item.checked
+  .active-item-indicator:before {
+  border-width: 2.5px;
+  border-style: solid;
+
+  border-image: linear-gradient(
+      to bottom,
+      #fd2c6c,
+      #ff5d3e,
+      #ff9100,
+      #e0c100,
+      #a8eb12
+    )
+    1;
+}
+/* .active-item-indicator::before {
+   border: 1px solid transparent;
+  border-image-width: 100%;
+   border-image: linear-gradient(
+      to right,
+      #fd2c6c,
+      #ff5d3e,
+      #ff9100,
+      #e0c100,
+      #a8eb12
+    )
+    1;
+
+}   */
+
+.monaco-workbench
+  .part.panel
+  > .title
+  > .composite-bar-container
+  > .composite-bar
+  > .monaco-action-bar
+  .action-item.checked:not(:focus)
+  .active-item-indicator:before {
+  border-top-color: #07a63f !important;
+}
+.monaco-editor .line-numbers.active-line-number {
+  color: #fac03b;
+  font-weight: 700;
+  text-shadow: #f7d913 0 0 20px;
+  font-family: "JetBrains Mono";
+  font-size: 18px;
+}
+
+.part.activitybar.left.bordered {
+  border-width: 2.5px !important;
+  border-style: solid;
+  border-image: linear-gradient(
+      to bottom,
+      #fd2c6c,
+      #fd2c6c,
+      #ff5d3e,
+      #ff5d3e,
+      #ff9100,
+      #e0c100,
+      #a8eb12
+    )
+    1 !important;
+
+  border-left: 0;
+
+  border-top: 0;
+  border-bottom: 0;
+  border-right-color: transparent !important;
+}
+.action-item.command-center-center {
+  border-color: #f71342 !important;
+}
